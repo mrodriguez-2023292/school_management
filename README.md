@@ -8,7 +8,7 @@ Web application for the management and administration of students in an educatio
 2. [Technologies(Tecnologías)](#technologies)
 3. [Nomenclatures(Nomenclaturas)](#nomenclatures)
 4. [Facility(Instalación)](#facility)
-5. [License(Licencia)](#License(Licencia))
+5. [License(Licencia)](#license(licencia))
 
 ## Characteristics(Características)
 
