@@ -4,20 +4,22 @@ Web application for the management and administration of students in an educatio
 
 ## Table of Contents(Tabla de Contenidos)
 
-1. [Characteristics(Características)](#características)
-2. [Technologies(Tecnologías)](#tecnologías)
-3. [Nomenclatures(Nomenclaturas)](#nomenclaturas)
-4. [Facility(Instalación)](#instalación)
-5. [License(Licencia)](#licencia)
+1. [Characteristics(Características)](#characteristics(características))
+2. [Technologies(Tecnologías)](#technologies(tecnologías))
+3. [Nomenclatures(Nomenclaturas)](#nomenclatures(nomenclaturas))
+4. [Facility(Instalación)](#facility(instalación))
+5. [License(Licencia)](#license(licencia))
 
 ## Characteristics(Características)
 
+**English**
 - **Reservation Management:** Make, edit and cancel room reservations in real time.
 - **Room Management:** Configure and organize rooms, bed types, and availability.
 - **Billing:** Generate and manage invoices, with support for different payment methods.
 - **Reports and Statistics:** Access detailed reports on occupancy, income and other key indicators.
 - **Friendly User Interface:** Designed to facilitate use and navigation, both for hotel staff and administrators.
 
+**Spanish**
 - **Gestión de Reservas:** Realiza, edita y cancela reservas de habitaciones en tiempo real.
 - **Administración de Habitaciones:** Configura y organiza habitaciones, tipos de cama, y disponibilidad.
 - **Facturación:** Genera y gestiona facturas, con soporte para diferentes métodos de pago.
@@ -26,6 +28,7 @@ Web application for the management and administration of students in an educatio
 
 ## Technologies(Tecnologías)
 
+**English**
 - **Programming Language:** JavaScript (Node.js)
 - **Framework:** Express.js
 - **Database:** MongoDB
@@ -36,6 +39,7 @@ Web application for the management and administration of students in an educatio
     - CORS (cross-domain request management)
     - Nodemon (automatic restart of development server)
 
+**Spanish**
 - **Lenguaje de Programación:** JavaScript (Node.js)
 - **Framework:** Express.js
 - **Base de Datos:** MongoDB
@@ -48,6 +52,7 @@ Web application for the management and administration of students in an educatio
 
 ## Nomenclatures(Nomenclaturas)
 
+**English**
 	--------------------------------------------------
 	- feat: add or remove a feature.
 	--------------------------------------------------
@@ -68,6 +73,7 @@ Web application for the management and administration of students in an educatio
 	- chore: changes to dependencies.
 	--------------------------------------------------
  
+ **Spanish**
 	--------------------------------------------------
 	- feat: agregar o eliminar una caracteristica.
 	--------------------------------------------------
@@ -92,6 +98,7 @@ Web application for the management and administration of students in an educatio
 
 To install and run the project locally, follow these steps(Para instalar y ejecutar el proyecto localmente, sigue estos pasos):
 
+**English**
 1. Clone this repository:
     ```bash
     git clone https://github.com/mrodriguez-2023292/school_management.git
@@ -104,7 +111,8 @@ To install and run the project locally, follow these steps(Para instalar y ejecu
     ```bash
     npm run dev
     ```
-    
+
+**Spanish**
 1. Clona este repositorio:
     ```bash
     git clone https://github.com/mrodriguez-2023292/school_management.git
@@ -120,4 +128,4 @@ To install and run the project locally, follow these steps(Para instalar y ejecu
     
 ## License(Licencia)
 
-This project is licensed under the [MIT License](LICENSE).(Este proyecto está licenciado bajo la [Licencia MIT](LICENSE))
+This project is licensed under the [MIT License](LICENSE)(Este proyecto está licenciado bajo la [Licencia MIT](LICENSE)).
