@@ -5,9 +5,9 @@ Web application for the management and administration of students in an educatio
 ## Table of Contents
 
 1. [Characteristics (Características)](#characteristics)
-2. [Technologies](#technologies)
-3. [Nomenclatures](#nomenclatures)
-4. [Facility](#facility)
+2. [Technologies (Tecnologías)](#technologies)
+3. [Nomenclatures (Nomenclaturas)](#nomenclatures)
+4. [Facility (Instalación)](#facility)
 5. [License (Licencia)](#license)
 
 ## Characteristics
