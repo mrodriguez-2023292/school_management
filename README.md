@@ -2,11 +2,15 @@
 
 Web application for the management and administration of students in an educational center.(Aplicación web para la gestión y administración de alumnos en un centro educativo.)
 
-## Table of Contents(Tabla de Contenidos)
+## Table of Contents/Tabla de Contenidos
 
-5. [License(Licencia)](#license(licencia))
+1. [Characteristics/Características](#characteristics/características)
+2. [Technologies/Tecnologías](#technologies/tecnologías)
+3. [Nomenclatures/Nomenclaturas](#nomenclatures/nomenclaturas)
+4. [Facility/Instalación](#facility/instalación)
+5. [License/Licencia](#license/licencia)
 
-## Characteristics(Características)
+## Characteristics/Características
 
 **English**
 - **Reservation Management:** Make, edit and cancel room reservations in real time.
@@ -22,7 +26,7 @@ Web application for the management and administration of students in an educatio
 - **Informes y Estadísticas:** Accede a reportes detallados sobre ocupación, ingresos y otros indicadores clave.
 - **Interfaz de Usuario Amigable:** Diseñado para facilitar el uso y navegación, tanto para el personal del hotel como para los administradores.
 
-## Technologies(Tecnologías)
+## Technologies/Tecnologías
 
 **English**
 - **Programming Language:** JavaScript (Node.js)
@@ -46,7 +50,7 @@ Web application for the management and administration of students in an educatio
     - CORS (gestión de peticiones entre dominios)
     - Nodemon (reinicio automático del servidor en desarrollo)
 
-## Nomenclatures(Nomenclaturas)
+## Nomenclatures/Nomenclaturas
 
 **English**
 
@@ -92,7 +96,7 @@ Web application for the management and administration of students in an educatio
 	- chore: cambios a las dependencias.
 	--------------------------------------------------
  
-## Facility(Instalación)
+## Facility/Instalación
 
 To install and run the project locally, follow these steps(Para instalar y ejecutar el proyecto localmente, sigue estos pasos):
 
@@ -124,6 +128,6 @@ To install and run the project locally, follow these steps(Para instalar y ejecu
     npm run dev
     ```
     
-## License(Licencia)
+## License/Licencia
 
 This project is licensed under the [MIT License](LICENSE)(Este proyecto está licenciado bajo la [Licencia MIT](LICENSE)).
