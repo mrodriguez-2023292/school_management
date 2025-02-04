@@ -4,11 +4,11 @@ Web application for the management and administration of students in an educatio
 
 ## Table of Contents(Tabla de Contenidos)
 
-1. [Characteristics(Características)](#characteristics(características))
-2. [Technologies(Tecnologías)](#technologies(tecnologías))
-3. [Nomenclatures(Nomenclaturas)](#nomenclatures(nomenclaturas))
-4. [Facility(Instalación)](#facility(instalación))
-5. [License(Licencia)](#license(licencia))
+1. [Characteristics(Características)](#characteristics)
+2. [Technologies(Tecnologías)](#technologies)
+3. [Nomenclatures(Nomenclaturas)](#nomenclatures)
+4. [Facility(Instalación)](#facility)
+5. [License(Licencia)](#license)
 
 ## Characteristics(Características)
 
@@ -53,6 +53,7 @@ Web application for the management and administration of students in an educatio
 ## Nomenclatures(Nomenclaturas)
 
 **English**
+
 	--------------------------------------------------
 	- feat: add or remove a feature.
 	--------------------------------------------------
@@ -74,6 +75,7 @@ Web application for the management and administration of students in an educatio
 	--------------------------------------------------
  
  **Spanish**
+ 
 	--------------------------------------------------
 	- feat: agregar o eliminar una caracteristica.
 	--------------------------------------------------
