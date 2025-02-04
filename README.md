@@ -2,16 +2,21 @@
 
 Web application for the management and administration of students in an educational center.(Aplicación web para la gestión y administración de alumnos en un centro educativo.)
 
-## Tabla de Contenidos
+## Table of Contents(Tabla de Contenidos)
 
-1. [Características](#características)
-2. [Tecnologías](#tecnologías)
-3. [Nomenclaturas](#nomenclaturas)
-4. [Instalación](#instalación)
-5. [Uso](#uso)
-6. [Licencia](#licencia)
+1. [Characteristics(Características)](#características)
+2. [Technologies(Tecnologías)](#tecnologías)
+3. [Nomenclatures(Nomenclaturas)](#nomenclaturas)
+4. [Facility(Instalación)](#instalación)
+5. [License(Licencia)](#licencia)
 
-## Características
+## Characteristics(Características)
+
+- **Reservation Management:** Make, edit and cancel room reservations in real time.
+- **Room Management:** Configure and organize rooms, bed types, and availability.
+- **Billing:** Generate and manage invoices, with support for different payment methods.
+- **Reports and Statistics:** Access detailed reports on occupancy, income and other key indicators.
+- **Friendly User Interface:** Designed to facilitate use and navigation, both for hotel staff and administrators.
 
 - **Gestión de Reservas:** Realiza, edita y cancela reservas de habitaciones en tiempo real.
 - **Administración de Habitaciones:** Configura y organiza habitaciones, tipos de cama, y disponibilidad.
@@ -19,7 +24,17 @@ Web application for the management and administration of students in an educatio
 - **Informes y Estadísticas:** Accede a reportes detallados sobre ocupación, ingresos y otros indicadores clave.
 - **Interfaz de Usuario Amigable:** Diseñado para facilitar el uso y navegación, tanto para el personal del hotel como para los administradores.
 
-## Tecnologías
+## Technologies(Tecnologías)
+
+- **Programming Language:** JavaScript (Node.js)
+- **Framework:** Express.js
+- **Database:** MongoDB
+    - **Library:** Mongoose
+- **Authentication:** JWT (JSON Web Token)
+- **Other Tools:**
+    - Dotenv (environment variables)
+    - CORS (cross-domain request management)
+    - Nodemon (automatic restart of development server)
 
 - **Lenguaje de Programación:** JavaScript (Node.js)
 - **Framework:** Express.js
@@ -31,8 +46,28 @@ Web application for the management and administration of students in an educatio
     - CORS (gestión de peticiones entre dominios)
     - Nodemon (reinicio automático del servidor en desarrollo)
 
-## Nomenclaturas
+## Nomenclatures(Nomenclaturas)
 
+	--------------------------------------------------
+	- feat: add or remove a feature.
+	--------------------------------------------------
+	- add: add files to the project folder.
+	--------------------------------------------------
+	- build: changes to the project structure.
+	--------------------------------------------------
+	- docs: changes in documentation.
+	--------------------------------------------------
+	- fix: fix bugs in the project. (It is different
+	to the feat)
+	--------------------------------------------------
+	- refactor: changes to the program that do not affect
+	at all.
+	--------------------------------------------------
+	- style: add or modify styles (front).
+	--------------------------------------------------
+	- chore: changes to dependencies.
+	--------------------------------------------------
+ 
 	--------------------------------------------------
 	- feat: agregar o eliminar una caracteristica.
 	--------------------------------------------------
@@ -53,36 +88,36 @@ Web application for the management and administration of students in an educatio
 	- chore: cambios a las dependencias.
 	--------------------------------------------------
  
-## Instalación
+## Facility(Instalación)
 
-Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
+To install and run the project locally, follow these steps(Para instalar y ejecutar el proyecto localmente, sigue estos pasos):
 
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/mrodriguez-2023292/school_management.git
+    ```
+2. Navigate to the project folder:
+    ```bash
+    cd repository
+    ```
+3. Run the application:
+    ```bash
+    npm run dev
+    ```
+    
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/usuario/repositorio.git
+    git clone https://github.com/mrodriguez-2023292/school_management.git
     ```
 2. Navega a la carpeta del proyecto:
     ```bash
     cd repositorio
     ```
-3. Instala las dependencias:
+3. Ejecuta la aplicación:
     ```bash
-    npm install # o 'pip install -r requirements.txt' si es Python
+    npm run dev
     ```
-4. Ejecuta la aplicación:
-    ```bash
-    npm start  # o 'python app.py' si es un proyecto Python
-    ```
+    
+## License(Licencia)
 
-## Uso
-
-Describe cómo usar la aplicación, qué funcionalidades ofrece, y ejemplos si es posible.
-
-```bash
-# Ejemplo de cómo usar la app
-npm run dev
-```
-
-## Licencia
-
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).(Este proyecto está licenciado bajo la [Licencia MIT](LICENSE))
