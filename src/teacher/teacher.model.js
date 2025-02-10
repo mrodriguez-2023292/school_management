@@ -58,4 +58,10 @@ const teacherSchema = Schema({
     timeStamps: true
 })
 
+teacherSchema.methods.toJSON = function(){
+    const { password, _id, ...teacher } = this.toObject()
+    teacher.uid = _id
+    return teacher
+}
+
 export default model("Teacher", teacherSchema)

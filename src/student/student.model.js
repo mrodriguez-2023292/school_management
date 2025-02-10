@@ -58,4 +58,10 @@ const studentSchema = Schema({
     timeStamps: true
 })
 
+studentSchema.methods.toJSON = function(){
+    const { password, _id, ...student } = this.toObject()
+    student.uid = _id
+    return student
+}
+
 export default model("Student", studentSchema)
