@@ -1,6 +1,6 @@
 import { Schema, model } from "mongoose";
 
-const userSchema = Schema({
+const teacherSchema = Schema({
     name:{
         type: String,
         required: [true, "Name is required"],
@@ -58,4 +58,4 @@ const userSchema = Schema({
     timeStamps: true
 })
 
-export default model("User", userSchema)
+export default model("Teacher", teacherSchema)

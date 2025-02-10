@@ -1,23 +1,46 @@
-import User from "../user/user.model.js"
+import Student from "../student/student.model.js"
+import Teacher from "../teacher/teacher.model.js"
 import { hash } from "argon2"
 
-export const register = async (req, res) => {
+export const registerStudent = async (req, res) => {
     try{
         const data = req.body
 
         const encryptedPassword = await hash(data.password)
         data.password = encryptedPassword
 
-        const user = await User.create(data)
+        const student = await Student.create(data)
         return res.status(201).json({
-            message: "User has been registered",
-            name: user.name,
-            email: user.email
+            message: "Student has been registered",
+            name: student.name,
+            email: student.email
         })
     }catch(err){
         console.log(err.message)
         return res.status(500).json({
-            message: "User registration failed",
+            message: "Student registration failed",
+            error: err.message
+        })
+    }
+}
+
+export const registerTeacher = async (req, res) => {
+    try{
+        const data = req.body
+
+        const encryptedPassword = await hash(data.password)
+        data.password = encryptedPassword
+
+        const teacher = await Teacher.create(data)
+        return res.status(201).json({
+            message: "Teacher has been registered",
+            name: teacher.name,
+            email: teacher.email
+        })
+    }catch(err){
+        console.log(err.message)
+        return res.status(500).json({
+            message: "Teacher registration failed",
             error: err.message
         })
     }
