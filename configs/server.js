@@ -6,6 +6,8 @@ import helmet from "helmet"
 import morgan from "morgan"
 import { dbConnection } from "./mongo.js"
 import authRoutes from "../src/auth/auth.routes.js"
+import studentRoutes from "../src/student/student.routes.js"
+import teacherRoutes from "../src/teacher/teacher.routes.js"
 import apiLimiter from "../src/middlewares/validate-requests.js"
 
 const middlewares = (app) => {
@@ -18,6 +20,8 @@ const middlewares = (app) => {
 
 const routes = (app) => {
     app.use("/systemSM/v1/auth", authRoutes)
+    app.use("/systemSM/v1/student", studentRoutes)
+    app.use("/systemSM/v1/teacher", teacherRoutes)
 }
 
 const conectionDB = async () => {

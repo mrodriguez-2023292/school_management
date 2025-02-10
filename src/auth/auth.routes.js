@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { registerStudent, registerTeacher, loginStudent, loginTeacher } from "./auth.controller.js";
-import { registerValidator, loginValidator } from "../middlewares/check-validator.js";
+import { registerValidator, loginValidator } from "../middlewares/studentCheck-validator.js";
 import { uploadStudentPicture } from "../middlewares/multer-upload.js";
 import { uploadTeacherPicture } from "../middlewares/multer-upload.js";
 
